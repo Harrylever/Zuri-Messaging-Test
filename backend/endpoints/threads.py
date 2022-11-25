@@ -130,7 +130,6 @@ async def update_threads_message(
 				status_code=status.HTTP_200_OK,
 		)
 
-
 @router.get(
 		"/org/{org_id}/member/{member_id}/threads",
 		response_model=ResponseModel,
